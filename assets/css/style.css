@@ -1,8 +1,47 @@
-h1{
+/* h1{
     color:black;
 }
 @media screen and (max-width: 400px){
     h1{
         color: red;
     }
+} */
+body{
+    font-family: Merriweather;
 }
+#h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+@media screen and (max-width:600px) {
+    .cards{
+        width: 100%;
+        border: 1px solid;
+        display: block;
+        text-align:justify
+    }
+    .right-section img{
+        width: 10px;
+    }
+
+    #h2{
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
+.left-section {
+    float: left;
+}
+
+.left-section img{
+    object-fit: cover;
+}
+
+.right-section{
+    float:right;
+}
+
+.right-section img{
+    object-fit: cover;
+}
+
